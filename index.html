@@ -1,0 +1,44 @@
+<!doctype html>
+<html>
+	<head>
+		<title>Apollo Assist</title>
+		<link rel="stylesheet" type="text/css" href="main.css"> 
+		<script type="text/javascript" src="ocrad.js"></script>
+		<script type="text/javascript" src="mespeak.js"></script>
+		<script
+			  src="https://code.jquery.com/jquery-3.1.1.min.js"
+			  integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
+			  crossorigin="anonymous"></script>
+		<script type="text/javascript" src="app.js"></script>
+		
+	</head>
+	<body>
+		<h1> Apollo Assist</h1>
+		
+		<input type="file" onchange="load_file()" id="picker">		
+		<div id="main">
+			<div id="nose">
+				<p>No file loaded</p>
+				<p style="font-size: 25px"> Open a file first </p>
+				
+			</div>
+			<div id="transcription">
+
+				<div>
+					<select>
+					  <option value="Helvetica">Helvetica</option>
+					  <option value="Courier">Courier</option>
+					  <option value="Ariel">Arial</option>
+					  <option value="Verdana" selected>Verdana</option>
+				    </select>
+				</div>
+				
+			</div>
+
+			</div>
+
+
+	</body>	
+</html>
+
+
